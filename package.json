@@ -1,0 +1,15 @@
+{
+  "name": "zone-utilities",
+  "version": "0.0.0",
+  "description": "Utility to handle zones",
+  "main": "Zone.js",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alex LANDREAU",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
