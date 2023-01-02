@@ -34,7 +34,6 @@ class Zone {
                     xy.y= parseFloat(coordinates[index+1])
                 xyPoints.push(xy)
             }
-            console.log (xyPoints)
             return xyPoints
         }
         return []
@@ -79,11 +78,6 @@ class Zone {
                     xI=M.x
                     yI=m*M.x+p
                     
-                    //
-                    // and 
-                    // then RM cross 1 time the polygone boundary
-                    // management of the point on the summit
-                    
                     if (((xI-point.x)*(xI-nextPoint.x)<0 &&(yI - R.y)*(yI - M.y)<0) //  if intersection is  between the polygone point on x axis and intersection is between the R and M point 
                     ||
                      (M.x==point.x &&(yI - R.y)*(yI - M.y)<0 && (M.x-previousPoint.x)*(M.x-nextPoint.x)<0)        // If RM cross a summit and  M.x is between the next and the previous point x
@@ -95,7 +89,7 @@ class Zone {
                     }
                 }
                 
-            console.log (count)
+
             if (count%2==0) 
                 return false
             else 
