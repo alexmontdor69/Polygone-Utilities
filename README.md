@@ -1,1 +1,1 @@
-# Utility to Handle Zone (as Polygone)
+# Utility to Handle Polygone

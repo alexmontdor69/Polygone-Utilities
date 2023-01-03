@@ -4,7 +4,7 @@
  * 
  */
 
-class Zone {
+class PolygonUtilities {
     coordinates=""
 
     constructor (props){
@@ -102,4 +102,4 @@ class Zone {
 
 }
 
-module.exports = Zone
+module.exports = PolygonUtilities
